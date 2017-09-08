@@ -11,7 +11,7 @@ console.log('Logcabin starting...')
 
 app.use(sessions({ cookieName: 'session', secret: config.cookie_secret }))
 
-auth.setup(express, app, config)
+//auth.setup(express, app, config)
 
 proxyES()
 proxyKibana4()
