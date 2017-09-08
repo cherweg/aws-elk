@@ -321,4 +321,4 @@ action.auto_create_index: true
 indices.breaker.fielddata.limit: 40%
 
 ################################ X-Pack Plugin ##############################
-xpack.security.enabled: false
+xpack.security.enabled: true
